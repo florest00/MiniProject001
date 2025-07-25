@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACCOUNT BOOK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../front/css/ab.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script defer src="../front/js/ab.js"></script>
+</head>
+
+<body>
+    <div class="container-md">
+        <h1>가계부</h1>
+        <hr>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">NO</th>
+                    <th scope="col">유형</th>
+                    <th scope="col">항목</th>
+                    <th scope="col">금액</th>
+                    <th scope="col">카테고리</th>
+                    <th scope="col">메모</th>
+                    <th scope="col">거래일</th>
+                    <th scope="col">작성일</th>
+                    <th scope="col">수정일</th>
+                    <th scope="col">관리</th>
+                </tr>
+            </thead>
+            <tbody id="board-table">
+                <!-- JS에서 이 영역을 채움 -->
+            </tbody>
+        </table>
+
+        <button type="button" class="btn btn-custom"><i class="bi bi-plus-circle white"></i>가계부 작성하기</button>
+    </div>
+
+</body>
+
+</html>

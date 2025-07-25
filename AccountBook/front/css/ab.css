@@ -1,0 +1,65 @@
+body {
+            background-color: #f8f9fa;
+        }
+
+h1 {
+    margin: 24px 0 8px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-custom {
+    color: #fff;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    float: right;
+    background: #b7926b;
+}
+
+.btn-custom-outline {
+    border: 1px solid #b7926b;
+    color: #b7926b;
+    background: transparent;
+}
+
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom-outline:hover,
+.btn-custom-outline:active {
+  background: #987754 !important;
+  color: #fff !important;
+}
+
+.white {
+    color: #fff;
+}
+
+.btn-group-001 {
+    gap: 8px;
+}
+
+.btn-group-001 > button {
+    width: 49.5%;
+}
+
+table tbody td:last-child {
+    padding: 0;
+}
+
+.td-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    padding: 8px;
+    gap: 6px;
+}
+
+td {
+    white-space: nowrap;
+}
