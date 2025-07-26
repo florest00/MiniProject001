@@ -15,7 +15,7 @@ import java.util.Map;
 @RequestMapping("api/ab")
 @RequiredArgsConstructor
 //@CrossOrigin("http://127.0.0.1:5500")
-@CrossOrigin(origins = {"http://127.0.0.1:5500", "http://192.168.35.230:5500"})
+@CrossOrigin(origins = {"http://localhost:5500", "https://florest00.github.io"})
 
 //@CrossOrigin("http://192.168.20.209:5500") //학원
 public class AbApiController {
